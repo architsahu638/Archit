@@ -1,163 +1,147 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribute to Virat Kohli</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
-        }
+<html>
+  <head>
+    <title>Foodie Place</title>
+    <link rel="stylesheet" href="pra7.css">
+  </head>
+  <body>
+    <h1>Foodie Place</h1>
+    <nav>
+      <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>Order</li></a>
+        <a href="#"><li>Near</li></a>
+        <a href="#"><li>About</li></a>
+      </ul>
+    </nav>
 
-        header {
-            background-color: #463e1f;
-            color: #fff;
-            text-align: center;
-            padding: 30px 20px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
+    <section class="items">
+      <div class="item">
+        <img src="OIP.jfif">
+        <h4>Pizza</h4>
+        <button>Order</button>
+      </div>
 
-        h1 {
-            font-size: 40px;
-            margin: 0;
-            letter-spacing: 2px;
-        }
+      <div class="item">
+        <img src="OIP (1).jfif">
+        <h4>Burger</h4>
+        <button>Order</button>
+      </div>
 
-        section {
-            background-color: #fff;
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 8px;
-            max-width: 900px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
+      <div class="item">
+        <img src="OIP (2).jfif">
+        <h4>French frise</h4>
+        <button>Order</button>
+      </div>
 
-        h2 {
-            font-size: 28px;
-            color: #333;
-            border-bottom: 2px solid #ffcc00;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-        }
+      <div class="item">
+        <img src="OIP (3).jfif">
+        <h4>Pav bhaji</h4>
+        <button>Order</button>
+      </div>
 
-        p {
-            font-size: 18px;
-            line-height: 1.8;
-            color: #555;
-        }
-
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-top: 20px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        .content div {
-            width: 48%;
-            margin-bottom: 20px;
-        }
-
-        .content div img {
-            border-radius: 8px;
-        }
-
-        .btn {
-            display: inline-block;
-            background-color: #f7c80d;
-            color: #333;
-            padding: 12px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-            margin-top: 20px;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn:hover {
-            background-color: #aa7c6a;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            font-size: 16px;
-            color: #777;
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 30px;
-            }
-
-            h2 {
-                font-size: 24px;
-            }
-
-            .content div {
-                width: 100%;
-            }
-
-            p {
-                font-size: 16px;
-            }
-
-            .btn {
-                font-size: 16px;
-            }
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Tribute to Virat Kohli</h1>
-    </header>
-
-    <section>
-        <h2>About Virat Kohli</h2>
-        <p>Virat Kohli is an Indian international cricketer and former captain of the Indian national team. He is one of the greatest batsmen in the history of cricket and has inspired millions with his passion, discipline, and consistency on the field.</p>
-        <a href="#" class="btn">Read More</a>
+      <div class="item">
+        <img src="momos.jfif">
+        <h4>Momos</h4>
+        <button>Order</button>
+      </div>
     </section>
+  </body>
+</html>
+<div class="item">
+        <img src="ice cream.jfif">
+        <h4>ice cream</h4>
+        <button>Order</button>
+      </div>
 
-    <section>
-        <h2>Early Life</h2>
-        <p>Virat Kohli was born on November 5, 1988, in Delhi, India. He started playing cricket at a very young age and quickly rose through the ranks due to his talent and determination. He was part of the Indian U-19 team that won the World Cup in 2008.</p>
-    </section>
-
-    <section>
-        <h2>Cricket Career</h2>
-        <p>Virat Kohli made his international debut in 2008 and has since become a key figure in Indian cricket. He has led the team to many memorable victories and holds numerous records in all formats of the game. His performances in matches like the 2016 T20 World Cup and 2018 tour of Australia are legendary.</p>
-    </section>
-
-    <section>
-        <h2>Virat Kohli's Image</h2>
-        <div class="content">
-            <div>
-                <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt="Virat Kohli Image 1">
-                <p>Virat Kohli is known for his intense attitude and competitive spirit, both on and off the field.</p>
-            </div>
-            <div>
-                <img src="https://static.toiimg.com/thumb/msid-111528868,width-1070,height-580,imgsize-104696,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg" alt="Virat Kohli Image 2">
-                <p>His fitness, fashion sense, and commitment to excellence have made him a youth icon.</p>
-            </div>
-        </div>
+      <div class="item">
+        <img src="OIP.jfif">
+        <h4>Pizza</h4>
+        <button>Order</button>
+      </div>
     </section>
 
     <footer>
-        Made by Archit Sahu
+      <div class="footer-content">
+        <p>2025@ Designed by Ankit</p>
+      </div>
     </footer>
-
-</body>
+    <footer>Thank for visit</footer>
+  </body>
 </html>
+* {
+  margin: 0;
+  padding: 0;
+  font-family: san-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  padding: 20px;
+}
+
+nav {
+  background-color: lime;
+  display: grid;
+  place-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: #000;
+}
+nav ul a {
+  font-size: 18px;
+}
+
+nav ul a:hover {
+  background-color: green;
+  color: white;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.item img {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.item img:hover {
+  transform: scale(1.04);
+}
+
+.items button {
+  background-color: green;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+footer {
+  background-color: green;
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+footerBottom p {
+  text-align: center;
+  bottom: 0;
+  position: relative;
+}
